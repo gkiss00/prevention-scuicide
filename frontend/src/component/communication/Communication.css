@@ -1,0 +1,40 @@
+.communication {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.communications:last-child {
+    margin-bottom: 0px;
+}
+
+.communicationHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.communicationContent {
+    margin-bottom: 15px;
+}
+
+.communicationFooter {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+}
+
+.communicationAuthor {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.communicationButtons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}

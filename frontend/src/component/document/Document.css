@@ -1,0 +1,22 @@
+.documentListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.documentsButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.documentDownloadButton {
+    padding-right: 10px;
+}

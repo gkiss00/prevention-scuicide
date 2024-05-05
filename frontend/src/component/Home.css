@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    background-color: lightblue;
+    height: 80px;
+}
+
+.test {
+    min-width: 800px;
+}

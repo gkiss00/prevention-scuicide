@@ -1,0 +1,40 @@
+.supervision {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.supervision:last-child {
+    margin-bottom: 0px;
+}
+
+.supervisionHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.supervisionContent {
+    margin-bottom: 15px;
+}
+
+.supervisionFooter {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+}
+
+.supervisionAuthor {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.supervisionButtons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}

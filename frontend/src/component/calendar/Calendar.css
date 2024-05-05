@@ -1,0 +1,59 @@
+.calendar {
+    display: flex;
+    flex-direction: row;
+}
+
+.day {
+    border-collapse: collapse;
+    position: relative;
+    min-width: 200px;
+    max-width: 1000px;
+}
+
+td {
+    border: 1px solid gray;
+    height: 30px;
+    min-width: 200px;
+    max-width: 1000px;
+    background-color: lightgray;
+}
+
+.shift {
+    position: absolute;
+    background-color: lightblue;
+    opacity: 50%;
+    z-index: 2;
+    width: 98%;
+    left: 1%;
+    outline: 1px solid blue;
+    border-radius: 2px;
+}
+
+.shift-delete {
+    position: absolute;
+    top: 0px;
+    right: 3px;
+}
+
+.grey-background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    display: none;
+    background: rgb(127 127 127 / 40%);
+}
+
+.create-shift-form {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 100%;
+    background-color: orange;
+    z-index: 4;
+}

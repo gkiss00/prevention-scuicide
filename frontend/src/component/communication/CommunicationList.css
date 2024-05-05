@@ -1,0 +1,14 @@
+h2 {
+    width: auto;
+    font-size: 42px;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.communications {
+    max-width: 800px;
+}
+
+#test1 {
+    margin-bottom: 10px;
+}
